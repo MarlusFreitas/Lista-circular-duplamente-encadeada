@@ -4,6 +4,7 @@ public class No {
     private String informacao;
     private No proximo;
     private No anterior;
+    private int indice;
 
     public No(){
     }
@@ -38,8 +39,11 @@ public class No {
         this.anterior = anterior;
     }
 
-    
+    public int getIndice() {
+        return indice;
+    }
 
-
-
+    public void setIndice(int indice) {
+        this.indice = indice;
+    }
 }
